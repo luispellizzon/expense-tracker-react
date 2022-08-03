@@ -1,42 +1,47 @@
 # Expense Tracker 
 
-This project aims to use the MERN Full Stack Application
+This project aims to use the MERN Full Stack Application, such as:
+ - MongoDB
+ - Express.js
+ - React
+ - Node.js
 
-<img width="1060" alt="Screenshot 2022-08-03 at 12 07 28" src="https://user-images.githubusercontent.com/92530249/182593787-67849f70-4a34-4a3c-a334-cddcd9bb0393.png">
+<img width="700" alt="Screenshot 2022-08-03 at 12 07 28" src="https://user-images.githubusercontent.com/92530249/182593787-67849f70-4a34-4a3c-a334-cddcd9bb0393.png">
 
- # Use your MongoDB database on config.env in config folder
+ ## Use your MongoDB database
+  On config.env in config folder, set the MONGO_URI with your MongoDB database
  
 <img width="295" alt="Screenshot 2022-08-03 at 12 14 57" src="https://user-images.githubusercontent.com/92530249/182594905-364e3a5c-955e-4402-a44a-2e9d0c769a33.png">
 
- # Install dependencies 
+ ###  Install dependencies 
  ```
   npm install
   cd client npm install
   cd ..
  ```
  
- # Run front and backend
+ ###  Run front and backend
  ```
  npm run dev
  ```
  
- # Backend only
+ ### Backend only
  ```
  npm run server
  ```
  
- # Frontend only
+ ### Frontend only
  ```
  npm run client
  ```
  
- # Build client
+ ### Build client
  ```
  cd client
  npm run build
  ```
  
- # Production
+ ### Production
  ```
  npm start
  ```
